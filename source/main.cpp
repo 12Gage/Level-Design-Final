@@ -338,17 +338,17 @@ int main(int argc, char* argv[]) {
 		SDL_RenderCopy(renderer, PlayerL, NULL, &PlayerPos);
 		}
 
-		SDL_RenderCopy(renderer, bagOpen1, NULL, &bag1Pos);
+		//SDL_RenderCopy(renderer, bagOpen1, NULL, &bag1Pos);
 
-		SDL_RenderCopy(renderer, bagOpen2, NULL, &bag2Pos);
+		//SDL_RenderCopy(renderer, bagOpen2, NULL, &bag2Pos);
 
-		SDL_RenderCopy(renderer, bagOpen3, NULL, &bag3Pos);
+		//SDL_RenderCopy(renderer, bagOpen3, NULL, &bag3Pos);
 
-		SDL_RenderCopy(renderer, Ammo0, NULL, &Ammo0Pos);
+		//SDL_RenderCopy(renderer, Ammo0, NULL, &Ammo0Pos);
 
-		SDL_RenderCopy(renderer, Empty, NULL, &EmptyPos);
+		//SDL_RenderCopy(renderer, Empty, NULL, &EmptyPos);
 
-		SDL_RenderCopy(renderer, Full, NULL, &FullPos);
+		//SDL_RenderCopy(renderer, Full, NULL, &FullPos);
 
 		SDL_RenderPresent(renderer);
 
