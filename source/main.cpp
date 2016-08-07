@@ -73,7 +73,7 @@ int main(int argc, char* argv[]) {
 
     PlayerPos.h = 56;
 
-	const int PLAYER_VEL = 30;
+	const int PLAYER_VEL = 3.5;
 
 	int pVelX = 0;
 	int pVelY = 0;
@@ -128,7 +128,7 @@ int main(int argc, char* argv[]) {
     SDL_Texture *healthPickup = IMG_LoadTexture(renderer, (images_dir + "HealthPickup.png").c_str());
     SDL_Rect healthPickupPos;
 
-    healthPickupPos.x = 0;
+    healthPickupPos.x = 50;
     healthPickupPos.y = -700;
     healthPickupPos.w = w;
     healthPickupPos.h = h;
