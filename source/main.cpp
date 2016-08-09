@@ -13,6 +13,8 @@ using namespace std;
 #include "SDL2_mixer/SDL_mixer.h"
 #include "SDL2_ttf/SDL_ttf.h"
 
+#include <unistd.h>
+
 string currentWorkingDirectory(getcwd(NULL, 0));
 string images_dir = currentWorkingDirectory + "/Level-Design-Final/image/";
 #endif
