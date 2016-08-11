@@ -871,23 +871,6 @@ int main(int argc, char* argv[]) {
 
 		SDL_RenderCopy(renderer, people, NULL, &peoplePos);
 
-		SDL_RenderCopy(renderer, tree, NULL, &treePos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree2Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree3Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree4Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree5Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree6Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree7Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree8Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree9Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree10Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree11Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree12Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree13Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree14Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree15Pos);
-		SDL_RenderCopy(renderer, tree, NULL, &tree16Pos);
-
 		SDL_RenderCopy(renderer, Tree, NULL, &TreePos);
 		SDL_RenderCopy(renderer, Tree, NULL, &TreePos2);
 		SDL_RenderCopy(renderer, Tree, NULL, &TreePos3);
@@ -909,6 +892,23 @@ int main(int argc, char* argv[]) {
 		SDL_RenderCopy(renderer, Tree, NULL, &TreePos19);
 		SDL_RenderCopy(renderer, Tree, NULL, &TreePos20);
 		SDL_RenderCopy(renderer, Tree, NULL, &TreePos21);
+
+		SDL_RenderCopy(renderer, tree, NULL, &treePos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree2Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree3Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree4Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree5Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree6Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree7Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree8Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree9Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree10Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree11Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree12Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree13Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree14Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree15Pos);
+		SDL_RenderCopy(renderer, tree, NULL, &tree16Pos);
 
 		SDL_RenderCopy(renderer, bagOpen1, NULL, &bag1Pos);
 
